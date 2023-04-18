@@ -1,6 +1,6 @@
 {
   "name": "@nhcarrigan/typescript-config",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Global config for my typescript projects",
   "main": "tsconfig.json",
   "scripts": {

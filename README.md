@@ -1,12 +1,44 @@
-# Project Name
+# Naomi's TypeScript Config
 
-Project Description
+This package holds my TypeScript configuration for easy installation and syncing changes across projects.
 
 ## Live Version
 
-This page is not yet deployed.
+This package is currently published. [View the `npm` page](https://www.npmjs.com/package/@nhcarrigan/typescript-config).
 
-<!--This page is currently deployed. [View the live website.]()-->
+## Installation
+
+To install this package, run the following command:
+
+```bash
+npm i @nhcarrigan/typescript-config typescript
+```
+
+## Compatibility
+
+This package is compatible with TypeScript 5.
+
+## Usage
+
+To use this package, add the following to your `tsconfig.json` file:
+
+```json
+{
+  "extends": "@nhcarrigan/typescript-config"
+}
+```
+
+By default, the root directory is `src` and the output directory is `prod`. To override these:
+
+```json
+{
+  "extends": "@nhcarrigan/typescript-config",
+  "compilerOptions": {
+    "rootDir": "code",
+    "outDir": "dist"
+  }
+}
+```
 
 ## Feedback and Bugs
 
