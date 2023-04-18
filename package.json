@@ -1,0 +1,25 @@
+{
+  "name": "@nhcarrigan/typescript-config",
+  "version": "0.0.0",
+  "description": "Global config for my typescript projects",
+  "main": "tsconfig.json",
+  "scripts": {
+    "test": "echo 'no tests yet'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/naomi-lgbt/typescript-config.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Naomi Carrigan",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/naomi-lgbt/typescript-config/issues"
+  },
+  "homepage": "https://github.com/naomi-lgbt/typescript-config#readme",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
