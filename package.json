@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo 'no tests yet'"
   },
+  "engines": {
+    "node": "18",
+    "pnpm": "8"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/naomi-lgbt/typescript-config.git"
