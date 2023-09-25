@@ -4,7 +4,7 @@
   "description": "Global config for my typescript projects",
   "main": "tsconfig.json",
   "scripts": {
-    "test": "echo 'no tests yet'"
+    "test": "tsc --rootDir './src' --outDir './prod' && echo 'build appears valid!'"
   },
   "engines": {
     "node": "20",
